@@ -1,12 +1,12 @@
-// @font-face {
-//   font-family: "Roboto";
-//   src: local("Roboto"),
-//     url(../fonts/Roboto-Regular.woff2) format("woff2"),
-//     url(../fonts/Roboto-Regular.woff) format("woff");
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../fonts/Roboto-Regular.woff2) format("woff2"),
+    url(../fonts/Roboto-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Roboto";
@@ -18,15 +18,15 @@
   font-display: swap;
 }
 
-// @font-face {
-//   font-family: "Roboto";
-//   src: local("Roboto"),
-//     url(../fonts/Roboto-Bold.woff2) format("woff2"),
-//     url(../fonts/Roboto-Bold.woff) format("woff");
-//   font-weight: 700;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../fonts/Roboto-Bold.woff2) format("woff2"),
+    url(../fonts/Roboto-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 html {
@@ -34,7 +34,7 @@ html {
 }
 
 :root {
-  --main-black: #101828;
+  --main-black: #222837;
 
 
   --eaeaea-color: #eaeaea;
@@ -49,6 +49,7 @@ html {
   --dark-purple: #6941C6;
 
 
+  --yellow-color: #FDDA25;
   --orange-color: #FF862F;
   --light-orange: #b89c72;
   --dark-orange: #BB370E;

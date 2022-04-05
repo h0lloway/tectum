@@ -112,6 +112,7 @@
     <section class="hero" id="hero">
       <div class="container hero__container">
 
+        <h1 style="display: none;">Компания Tectum</h1>
 
         <div class="row hero__top-table top-table">
 
@@ -157,12 +158,15 @@
 
         </div>
 
-        <div class="row hero__search mid-search">
+        <form class="row hero__search mid-search" action="" method="get">
           <label class="col-md-12 mid-search__label" for="search">
-            <input class="mid-search__input" type="search" id="search"
+            <input class="mid-search__input" type="text" id="search"
               placeholder="Хэш, Нода ID, Блокчейн ID, Транзакция или Кошелек">
+            <svg class="search" width="16" height="16">
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
           </label>
-        </div>
+        </form>
 
         <div class="row hero__checkbox bot-checkbox">
           <div class="col-md-12">
@@ -202,23 +206,27 @@
 
     <section class="main-table">
       <div class="container main-table__container">
-        <h2 class="row main-table__title">
+        <h2 class="row  main-table__title">
           События
+          <span class="main-table__select">все</span>
         </h2>
+
 
         <div class="row">
           <table class="main-table__table table table-striped">
             <thead class="thead">
               <tr>
-                <th>Сеть</th>
+                <th style="width: 111px;">Сеть</th>
                 <th>Блок</th>
-                <th>Хеш события</th>
+                <th style="width: 200px">Хеш события</th>
+                <th></th>
                 <th class="-right">Сумма</th>
                 <th>Валюта</th>
                 <th>Дата/Время</th>
               </tr>
             </thead>
             <tbody>
+
               <tr>
                 <td class="color-black">
                   <img src="img/bitcoin.png" alt="#" width="18" height="18">
@@ -226,10 +234,14 @@
                 </td>
                 <td class="color-grey">123456</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFup8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFup8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
 
                 <td class="color-grey -right">0.0172000</td>
@@ -249,10 +261,14 @@
                 </td>
                 <td class="color-grey">123456</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">0.017200</td>
                 <td class="color-grey cur">
@@ -271,10 +287,14 @@
                 </td>
                 <td class="color-grey">12345</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FveeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FveeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">0.0002023</td>
                 <td class="color-grey cur">
@@ -295,10 +315,14 @@
                 </td>
                 <td class="color-grey">12345</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">1 097</td>
                 <td class="color-grey cur">
@@ -321,10 +345,14 @@
                 </td>
                 <td class="color-grey">12345</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">490</td>
                 <td class="color-grey cur">
@@ -345,10 +373,14 @@
                 </td>
                 <td class="color-grey">1234</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">0.01</td>
                 <td class="color-grey cur">
@@ -369,10 +401,14 @@
                 </td>
                 <td class="color-grey">1234</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">15</td>
                 <td class="color-grey cur">
@@ -391,12 +427,16 @@
                   <img src="img/bitcoin.png" alt="#" width="18" height="18">
                   <span>Bitcoin</span>
                 </td>
-                <td class="color-grey">123456</td>
+                <td class="color-grey">1234</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFup8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFup8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">0.0172000</td>
                 <td class="color-grey cur">
@@ -417,10 +457,14 @@
                 </td>
                 <td class="color-grey">1234</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6nf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6nf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">30</td>
                 <td class="color-grey cur">
@@ -443,10 +487,14 @@
                 </td>
                 <td class="color-grey">1234</td>
                 <td class="color-black">
-                  <span>CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</span>
-                  <svg class="hesh" width="20" height="20">
-                    <use xlink:href="img/sprite.svg#hesh"></use>
-                  </svg>
+                  <a href="#">CYjJTSev87kAdgdb1FvueeTT6cnf2TLUdpDDxcFuwp8J</a>
+                </td>
+                <td>
+                  <button class="hover-effect my-btn">
+                    <svg class="hesh" width="20" height="20">
+                      <use xlink:href="img/sprite.svg#hesh"></use>
+                    </svg>
+                  </button>
                 </td>
                 <td class="color-grey -right">34.021</td>
                 <td class="color-grey cur">
@@ -459,6 +507,7 @@
                 </td>
                 <td class="color-black">2022/01/22 15:19:08</td>
               </tr>
+
             </tbody>
           </table>
         </div>
@@ -467,8 +516,8 @@
           <div class="filter__left"></div>
           <div class="filter__mid">
 
-            <button class="filter__btn-arrow left2 my-btn left"></button>
-            <button class="filter__btn-arrow my-btn left"></button>
+            <button class="filter__btn-arrow left2 my-btn left disable"></button>
+            <button class="filter__btn-arrow my-btn left disable"></button>
 
             <button class="filter__btn-digit my-btn">1</button>
             <span>из 265801</span>
@@ -478,7 +527,7 @@
 
           </div>
           <div class="filter__right">
-            Показывать по 10
+            Показывать по <span class="filter__digit">10</span>
           </div>
         </div>
       </div>
@@ -542,7 +591,7 @@
         <div class="footer__descr col-xl-4">
           <span>Tectum.io©, 2020</span>
           <span>
-            <a href="#" style="text-decoration: none">Terms & Conditions – Privacy Policy</a>
+            <a class="footer__descr-link" href="#">Terms & Conditions – Privacy Policy</a>
           </span>
           <span>Version 0.01</span>
         </div>
