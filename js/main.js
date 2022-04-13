@@ -58,3 +58,11 @@ toggleThemeBtn.addEventListener('click', () => {
 })
 
 if (localStorage.theme === 'dark') setDarkTheme()
+
+
+
+// placeholder
+if ($(window).width() <= 600 ) {
+  $(".mid-search__input").attr("placeholder","Search");
+}
+else { $(".mid-search__input").attr("placeholder","Хэш, Нода ID, Блокчейн ID, Транзакция или Кошелек");}
